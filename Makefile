@@ -14,7 +14,10 @@ test: clean lint
 
 coverage:
 	@python3 -m coverage run -m unittest
-	@python3 -m coverage report	
+	@python3 -m coverage html
+
+coverage-report:
+	@codecov
 
 install-dev:
 	@python3 -m pip install -r library/requirements-dev.txt

@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+install: "make install-dev"
+before_script:
+  - pip freeze
+jobs:
+  include:
+    - stage: coverage
+      script: make coverage
+      after_success: make coverage-report
+    - stage: lint
+      script: make lint
