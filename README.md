@@ -20,10 +20,10 @@ AUTHORS              : Amie Kaufman, Jay Kristoff, Marie Lu
 
 Initial library installation for the first time:-
 ```
-    python3 -m pip install -r requirements.txt
+    make install
 ```
 
 Normal Execution:
 ```
-    python3 start_app.py
+    make run
 ```
