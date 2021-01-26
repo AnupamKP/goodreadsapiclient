@@ -2,4 +2,3 @@ requests
 xmltodict
 black
 coverage
-unittest
