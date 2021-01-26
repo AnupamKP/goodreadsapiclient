@@ -1,4 +1,6 @@
-import api_client
+import sys
+sys.path.append('../')
+import goodreadsapiclient.api_client
 
 def exec_cli_interface():
     book_url = input("Enter a goodread's book url: ")

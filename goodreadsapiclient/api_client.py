@@ -1,6 +1,6 @@
 import requests
 import xmltodict
-from exception import InvalidGoodreadsURL
+from goodreadsapiclient.exception import InvalidGoodreadsURL
 
 class GoodreadsAPIClient:
     def __init__(self):
