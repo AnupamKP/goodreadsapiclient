@@ -3,6 +3,8 @@
 This python application takes a Goodreads URL string as input and gives out information of the book as output.
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Build Status](https://travis-ci.com/AnupamKP/goodreadsapiclient.svg?branch=main)](https://travis-ci.com/AnupamKP/goodreadsapiclient)
+[![codecov](https://codecov.io/gh/AnupamKP/goodreadsapiclient/branch/main/graph/badge.svg?token=XRK64GMTRE)](https://codecov.io/gh/AnupamKP/goodreadsapiclient)
 [![GitHub license](https://img.shields.io/github/license/AnupamKP/goodreadsapiclient)](https://github.com/AnupamKP/goodreadsapiclient/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/AnupamKP/goodreadsapiclient)](https://github.com/AnupamKP/goodreadsapiclient/issues)
 
